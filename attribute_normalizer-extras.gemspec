@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "attribute_normalizer-extras"
   spec.version       = AttributeNormalizer::Extras::VERSION
   spec.authors       = ["Jordan Babe"]
-  spec.email         = ["jbabe@gmail.com"]
+  spec.email         = ["jorbabe@gmail.com"]
   spec.summary       = %q{attribute_normalizer gem extras}
   spec.description   = %q{Specific normalizers that we commonly use in our apps}
   spec.homepage      = ""
@@ -20,6 +20,11 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "pry", "~> 0.10"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rspec-instafail"
+  spec.add_development_dependency "simplecov"
 
-  spec.add_dependency "attribute_normalizer", "~> 0.3.0"
+  spec.add_runtime_dependency "attribute_normalizer", "~> 1.0"
 end
+
