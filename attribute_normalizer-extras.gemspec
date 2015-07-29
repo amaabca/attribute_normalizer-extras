@@ -6,8 +6,8 @@ require 'attribute_normalizer/extras/version'
 Gem::Specification.new do |spec|
   spec.name          = "attribute_normalizer-extras"
   spec.version       = AttributeNormalizer::Extras::VERSION
-  spec.authors       = ["Jordan Babe"]
-  spec.email         = ["jorbabe@gmail.com"]
+  spec.authors       = ["Darko Dosenovic", "Michael van den Beuken", "Ruben Estevez", "Jordan Babe", "Mathieu Gilbert", "Ryan Jones", "Jonathan Weyermann"]
+  spec.email         = ["darko.dosenovic@ama.ab.ca", "michael.vandenbeuken@ama.ab.ca", "ruben.estevez@ama.ab.ca", "jordan.babe@ama.ab.ca", "mathieu.gilbert@ama.ab.ca", "ryan.jones@ama.ab.ca", "jonathan.weyermann@ama.ab.ca"]
   spec.summary       = %q{attribute_normalizer gem extras}
   spec.description   = %q{Specific normalizers that we commonly use in our apps}
   spec.homepage      = ""

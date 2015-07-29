@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe AttributeNormalizer::Normalizers::SquashNormalizer do
+describe AttributeNormalizer::Normalizers::SpacelessNormalizer do
 
   describe '.normalizer' do
     it 'removes all whitespace' do

@@ -1,6 +1,6 @@
 module AttributeNormalizer
   module Normalizers
-    module SquashNormalizer
+    module SpacelessNormalizer
       def self.normalize(value, options)
         GsubNormalizer.normalize value, pattern: /\s+/, replacement: ''
       end
