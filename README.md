@@ -1,6 +1,6 @@
 # AttributeNormalizer::Extras
 
-TODO: Write a gem description
+Extra normalizers for the [attribute_normalizer](https://rubygems.org/gems/attribute_normalizer) gem
 
 ## Installation
 
@@ -20,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    class Foo < ActiveRecord::Base
+      normalize_attribute :postal_code, with: :postal_code
+      normalize_attribute :email, with: :gsub, pattern: /(googlemail.com)/, replacement: "gmail.com"
+      normalize_attribute :country_abbreviation, with: :spaceless
+    end
 
 ## Contributing
 
