@@ -16,7 +16,7 @@ describe AttributeNormalizer::Normalizers::PostalCodeNormalizer do
     end
 
     it 'upcases lowercase text' do
-      expect(subject.normalize "t6h1v2" {}).to eq "T6H1V2"
+      expect(subject.normalize "t6h1v2", {}).to eq "T6H1V2"
     end
 
   end
