@@ -19,6 +19,10 @@ describe AttributeNormalizer::Normalizers::PostalCodeNormalizer do
       expect(subject.normalize "t6h1v2", {}).to eq "T6H1V2"
     end
 
+    it 'returns nil if value is nil' do
+      expect(subject.normalize nil, {}).to be_nil
+    end
+
   end
 
 end
