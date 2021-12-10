@@ -1,3 +1,5 @@
+[![Build Status](https://github.com/amaabca/attribute_normalizer-extras/actions/workflows/main.yml/badge.svg)](https://github.com/amaabca/attribute_normalizer-extras/actions/workflows/main.yml)
+
 # AttributeNormalizer::Extras
 
 Extra normalizers for the [attribute_normalizer](https://rubygems.org/gems/attribute_normalizer) gem
