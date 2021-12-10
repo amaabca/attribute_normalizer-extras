@@ -13,7 +13,7 @@ extras = {
   spaceless: AttributeNormalizer::Normalizers::SpacelessNormalizer,
   float: AttributeNormalizer::Normalizers::FloatNormalizer,
   downcase: AttributeNormalizer::Normalizers::DowncaseNormalizer,
-  uppercase: AttributeNormalizer::Normalizers::UpcaseNormalizer
+  upcase: AttributeNormalizer::Normalizers::UpcaseNormalizer
 }
 
 AttributeNormalizer.configuration.normalizers.merge! extras
